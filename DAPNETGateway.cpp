@@ -22,6 +22,7 @@
 #include "Thread.h"
 #include "Timer.h"
 #include "Log.h"
+#include <algorithm>
 
 #if defined(_WIN32) || defined(_WIN64)
 #include <Windows.h>
